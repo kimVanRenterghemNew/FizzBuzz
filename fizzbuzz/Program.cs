@@ -16,13 +16,13 @@ namespace fizzbuzz
             var ranges = new ranges();
             foreach (var i in Enumerable.Range(1, 16))
             {
-                //Console.WriteLine($"{i} => if {ifif.FizzBuzz(i)}");
-                //Console.WriteLine($"{i} => else {ifelse.FizzBuzz(i)}");
-                //Console.WriteLine($"{i} => {ifelse.FizzBuzz(i)} = co {composition.FizzBuzz(i)}");
-                //Console.WriteLine($"{i} => {ifelse.FizzBuzz(i)} = in {infinety.FizzBuzz(i)}");
-                //Console.WriteLine($"{i} => {ifelse.FizzBuzz(i)} = po {pozition.FizzBuzz(i)}");
-                //Console.WriteLine($"{i} => {ifelse.FizzBuzz(i)} = ra {ranges.FizzBuzz(i)}");
-                //Console.WriteLine($"{i} => {ifelse.FizzBuzz(i)} = in {infinityPosition.FizzBuzz(i)}");
+                Console.WriteLine($"{i} => if {ifif.FizzBuzz(i)}");
+                Console.WriteLine($"{i} => else {ifelse.FizzBuzz(i)}");
+                Console.WriteLine($"{i} => {ifelse.FizzBuzz(i)} = co {composition.FizzBuzz(i)}");
+                Console.WriteLine($"{i} => {ifelse.FizzBuzz(i)} = in {infinety.FizzBuzz(i)}");
+                Console.WriteLine($"{i} => {ifelse.FizzBuzz(i)} = po {pozition.FizzBuzz(i)}");
+                Console.WriteLine($"{i} => {ifelse.FizzBuzz(i)} = ra {ranges.FizzBuzz(i)}");
+                Console.WriteLine($"{i} => {ifelse.FizzBuzz(i)} = in {infinityPosition.FizzBuzz(i)}");
             }
 
             Console.ReadKey();
